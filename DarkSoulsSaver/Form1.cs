@@ -32,7 +32,7 @@ namespace DarkSoulsSaver
                 date.PadRight(LISTBOX_COLUMN_PADDING - date.Length, ' ')
                 + time.PadRight(LISTBOX_COLUMN_PADDING - time.Length, ' ')
                 + desc.Replace("*comma*", ",")
-                ) ;
+                );
         }
 
         private void AddToListBox(string dir)
@@ -162,7 +162,7 @@ namespace DarkSoulsSaver
         private void btnLoad_Click(object sender, EventArgs e)
         {
             AskIfBackupFirst();
-            if(ConfirmLoad())
+            if (ConfirmLoad())
             {
                 Directory.Delete(saveLocation, true);
                 CopyDirectory(GetPathToSelectedBackup(), saveLocation, true);
