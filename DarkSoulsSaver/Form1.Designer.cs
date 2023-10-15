@@ -153,7 +153,7 @@
             Margin = new Padding(3, 4, 3, 4);
             MaximizeBox = false;
             Name = "Form1";
-            Text = "Form1";
+            Text = "ItsTheNikolai's DarkSoulsSaver";
             Load += Form1_Load;
             groupBox1.ResumeLayout(false);
             groupBox1.PerformLayout();
